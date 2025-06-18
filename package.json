@@ -25,11 +25,12 @@
     "@pixi/app": "^7.4.3",
     "@pixi/display": "^7.4.3",
     "@pixi/graphics": "^7.4.3",
-    "@pixi/text": "^7.4.3",
+    "@pixi/sound": "^6.0.1",
     "@pixi/sprite-animated": "^7.4.3",
     "@pixi/spritesheet": "^7.4.3",
+    "@pixi/text": "^7.4.3",
     "@pixi/ticker": "^7.4.3",
-    "@pixi/sound": "^6.0.1",
+    "gh-pages": "^6.3.0",
     "gsap": "^3.13.0",
     "pixi.js": "^8.10.1"
   },
@@ -37,11 +38,11 @@
     "@babel/core": "^7.27.4",
     "@babel/preset-env": "^7.27.2",
     "babel-loader": "^9.2.1",
-    "webpack": "^5.99.9",
-    "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.2",
     "copy-webpack-plugin": "^13.0.0",
     "file-loader": "^6.2.0",
-    "html-webpack-plugin": "^5.6.3"
+    "html-webpack-plugin": "^5.6.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2"
   }
 }

@@ -5,11 +5,10 @@ const path = require('path');
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.resolve(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: './', // important for GitHub Pages
+    path: path.resolve(__dirname, 'dist'),
+    clean: true
   },
-
   mode: 'development',
   devServer: {
     static: './dist',
@@ -46,6 +45,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         { from: 'assets', to: 'assets' }, // ✅ Copies /assets to dist/assets
+        { from: 'public', to: '.' },
       ],
     }),
   ]
