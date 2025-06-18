@@ -1,0 +1,47 @@
+{
+  "name": "pixi-battle-arena",
+  "version": "1.0.0",
+  "homepage": "https://dikshant3221.github.io/pixi-battle-arena",
+  "description": "A 2D battle arena engine built with PIXI.js and ECS (Entity Component System) architecture.",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "pixi.js",
+    "ecs",
+    "2d",
+    "game",
+    "javascript",
+    "battle",
+    "arena"
+  ],
+  "author": "Dikshant sahani",
+  "license": "MIT",
+  "dependencies": {
+    "@pixi/app": "^7.4.3",
+    "@pixi/display": "^7.4.3",
+    "@pixi/graphics": "^7.4.3",
+    "@pixi/text": "^7.4.3",
+    "@pixi/sprite-animated": "^7.4.3",
+    "@pixi/spritesheet": "^7.4.3",
+    "@pixi/ticker": "^7.4.3",
+    "@pixi/sound": "^6.0.1",
+    "gsap": "^3.13.0",
+    "pixi.js": "^8.10.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.27.4",
+    "@babel/preset-env": "^7.27.2",
+    "babel-loader": "^9.2.1",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.2",
+    "copy-webpack-plugin": "^13.0.0",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.6.3"
+  }
+}
